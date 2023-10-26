@@ -1,5 +1,6 @@
 .skills {
     display: flex;
+    justify-items: center;
     font-family: "Press Start 2P";
     font-size: 25px;
     color: white;
@@ -7,4 +8,15 @@
 
 .skills .icon {
     margin-right: 25px;
+    width: 90px;
+}
+
+.skills .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.skills .main-title {
+    margin-bottom: 10px;
 }
