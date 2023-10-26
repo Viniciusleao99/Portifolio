@@ -4,3 +4,9 @@
     text-shadow: 4px 4px 0 grey;
     color: white;
 }   
+
+.skill .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
