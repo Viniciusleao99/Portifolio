@@ -10,49 +10,55 @@
 
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/components/main-title.css">
-    <link rel="stylesheet" href="CSS/components/subtitle.css">
-    <link rel="stylesheet" href="CSS/components/box.css">
-    <link rel="stylesheet" href="CSS/components/button.css">
-    <link rel="stylesheet" href="CSS/components/action.css">
-    <link rel="stylesheet" href="CSS/components/header.css">
-    <link rel="stylesheet" href="CSS/components/box.css">
-    <link rel="stylesheet" href="CSS/components/banner.css">
-    <link rel="stylesheet" href="CSS/components/section.css">
+    <link rel="stylesheet" href="CSS/components/main-subtitle.css">
+    <link rel="stylesheet" href="CSS/components/main-box.css">
+    <link rel="stylesheet" href="CSS/components/main-button.css">
+    <link rel="stylesheet" href="CSS/components/main-action.css">
+    <link rel="stylesheet" href="CSS/components/main-header.css">
+    <link rel="stylesheet" href="CSS/components/main-box.css">
+    <link rel="stylesheet" href="CSS/components/main-banner.css">
+    <link rel="stylesheet" href="CSS/components/main-section.css">
     <link rel="stylesheet" href="CSS/components/skills.css">
     <link rel="stylesheet" href="CSS/components/progress-bar.css">
     <link rel="stylesheet" href="CSS/components/wrapper-skills.css">
     <link rel="stylesheet" href="CSS/components/card-project.css">
+    <link rel="stylesheet" href="CSS/components/wrapper-card.css">
+    <link rel="stylesheet" href="CSS/components/main-description">
+    <link rel="stylesheet" href="CSS/components/button-arrow.css">
+    <link rel="stylesheet" href="CSS/components/node-card.css">
+    <link rel="stylesheet" href="CSS/components/main-carousel.css">
+
 
 </head>
 
 <body style="background-color: bisque;"> <!--APAGAR DPS-->
-    <header class="header">
+    <header class="main-header">
         <img src="assets/img/perfil.png" alt="Foto de Perfil">
 
         <nav>
-            <a class="action" href="">Sobre</a>
-            <a class="action" href="" lang="en">Skills</a>
-            <a class="action" href="">Contato</a>
-            <a class="action" href="">Projetos</a>
-            <a class="button" href="" lang="en">Donwload CV</a>
+            <a class="main-action" href="">Sobre</a>
+            <a class="main-action" href="" lang="en">Skills</a>
+            <a class="main-action" href="">Contato</a>
+            <a class="main-action" href="">Projetos</a>
+            <a class="main-button" href="" lang="en">Donwload CV</a>
         </nav>
     </header>
 
-        <section class="banner">
+        <section class="main-banner">
             <div class="wrapper">
-                <div class="box">
+                <div class="main-box">
                     <h1 class="main-title">Vinícius Leão</h1>
-                    <h2 class="subtitle">Programming Student</h2>
+                    <h2 class="main-subtitle">Programming Student</h2>
                 </div>
 
                 <div class="navigation">
-                    <a class="button" href=""> Contato</a>
-                    <a class="button" href="" lang="en">Donwload CV</a>
+                    <a class="main-button" href=""> Contato</a>
+                    <a class="main-button" href="" lang="en">Donwload CV</a>
                 </div>
             </div>
         </section>
         
-    <section class="section">
+    <section class="main-section">
             <h2 class="main-title -second">Skills</h2>
     <div class="wrapper-skills">
         <article class="skills">
@@ -86,16 +92,70 @@
     </div>
     </section>
 
-    <section>
-        <figure class="card-project">
-            <img src="assets/img/SGBD.jpg" alt="Banco de dados">
-        </figure>
-        <figure class="card-project">
-            <img src="assets/img/logo-collabcode.png" alt="">
-        </figure>
-        <figure class="card-project"> 
-            <img src="assets/img/logo-firedlabs.png" alt="Banco de dados">
-        </figure>
+    <section class="main-section -bgBlack -bdFirst">
+        <h2 class="main-title -second">Projetos</h2>
+        <div class="wrapper-card">
+            <a href=""></a>
+            <figure class="card-project">
+                <img src="assets/img/SGBD.jpg" alt="Banco de dados">
+            </figure>
+            <a href=""></a>
+            <figure class="card-project">
+                <img src="assets/img/logo-collabcode.png" alt="">
+            </figure>
+            <a href=""></a>
+            <figure class="card-project"> 
+                <img src="assets/img/logo-firedlabs.png" alt="Banco de dados">
+            </figure>
+        </div>
     </section>
-</body>
+
+    <section class="main-section -bgBlack -bdSecond">
+        <h2 class="main-title -second">Sobre</h2>
+        <p class="main-description">Sou o Vinícius Leão, estou cursando ciências da computação e sou um entusiasta da área da tecnologia e do marketing digital pois ambas têm muito o que crescer ainda e estão intrinsecamente interligadas ao dia dia de qualquer pessoa, o que as tornam tão fascinantes e inigualáveis.</p>
+   
+        <section class="main-carousel">
+            <button class="button-arrow -left"> <span class="content">Avançar</span></button>
+                <div class="items"> 
+                    
+                        <figure class="node-card">
+                            <figcaption class="title">2022</figcaption>
+                                <div class="logo">
+                                    <img src="assets/img/logo-locaweb.png" alt="logo">
+                                </div>
+                        </figure>
+
+                        <figure class="node-card -clean">
+                            <figcaption class="title">2022</figcaption>
+                                <div class="logo">
+                                    <img src="assets/img/logo-caelum.png" alt="logo">
+                                </div>
+                        </figure>
+
+                        <figure class="node-card -first">
+                            <figcaption class="title">2023</figcaption>
+                                <div class="logo">
+                                    <img src="assets/img/logo-getninjas.png" alt="logo">
+                                </div>
+                        </figure>
+
+                        <figure class="node-card">
+                            <figcaption class="title">2022</figcaption>
+                                <div class="logo">
+                                    <img src="assets/img/logo-locaweb.png" alt="logo">
+                                </div>
+                        </figure>
+
+                        <figure class="node-card -clean">
+                            <figcaption class="title">2022</figcaption>
+                                <div class="logo">
+                                    <img src="assets/img/logo-caelum.png" alt="logo">
+                                </div>
+                        </figure>
+                    
+                </div>  
+            <button class="button-arrow -right"> <span class="content">Voltar</span></button>
+        </section>
+    </section>
+    </body>
 </html>

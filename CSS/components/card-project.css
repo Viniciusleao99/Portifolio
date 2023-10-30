@@ -7,3 +7,7 @@
     align-items: center;
     box-shadow: 10px 10px 0 white;
 }
+
+.card-project.-blue {
+    background-color: blue;
+}

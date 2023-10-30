@@ -1,25 +1,25 @@
-.banner {
+.main-banner {
     box-sizing: border-box;
     background-image: url(../../assets/img/fundo.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 800px;
+    height: 480px;
     border-bottom: 10px solid black;
     padding-top: 115px;
     padding: 90px;
 }
 
-.banner .wrapper {
+.main-banner .wrapper {
     display: flex;
     flex-direction: column;
     width: 630px;
 }
 
-.banner .box {
+.main-banner .main-box {
     margin-bottom: 40px;
 }
 
-.banner .navigation {
+.main-banner .navigation {
     display: flex;
     justify-content: space-around;
 }
